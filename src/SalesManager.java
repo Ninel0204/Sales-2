@@ -28,12 +28,5 @@ public class SalesManager {
         return min;
     }
 
-    public long average() {
-            int list=0;
-            for (long sale:sales){
-            list+=sale;
-    }
-        long average=list/ priceList.length;
-        return average;
-    }
+    
 }
