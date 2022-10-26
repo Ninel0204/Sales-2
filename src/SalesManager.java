@@ -29,12 +29,12 @@ public class SalesManager {
     }
 
 
-    public int average() {
+    public long average() {
             int list=0;
-            for (int sale:sales){
+            for (long sale:sales){
             list+=sale;
     }
-        int average=list/ priceList.length;
+        long average=list/ priceList.length;
         return average;
     }
 
