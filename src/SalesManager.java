@@ -28,7 +28,7 @@ public class SalesManager {
         return min;
     }
 
-<<<<<<< HEAD
+
     public int average() {
             int list=0;
             for (int sale:sales){
@@ -37,7 +37,6 @@ public class SalesManager {
         int average=list/ priceList.length;
         return average;
     }
-=======
-    
->>>>>>> longer
+
+   
 }
