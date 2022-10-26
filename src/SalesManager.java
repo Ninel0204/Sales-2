@@ -28,12 +28,12 @@ public class SalesManager {
         return min;
     }
 
-    public double average() {
+    public int average() {
             int list=0;
             for (int sale:sales){
             list+=sale;
     }
-        double average=list/ priceList.length;
+        int average=list/ priceList.length;
         return average;
     }
 }
