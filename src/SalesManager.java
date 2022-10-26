@@ -1,16 +1,16 @@
 public class SalesManager {
-    protected int[] sales;
-    int[] priceList = {500, 1000, 50, 6000,800,600};
+    protected long[] sales;
+    long[] priceList = {500, 1000, 50, 6000,800,600};
 
 
-    public SalesManager(int[] sales) {
+    public SalesManager(long[] sales) {
         this.sales = sales;
     }
 
 
-    public int max() {
+    public long max() {
         int max = -1;
-        for (int sale : sales) {
+        for (long sale : sales) {
             if (sale > max) {
                 max = sale;
             }
@@ -18,9 +18,9 @@ public class SalesManager {
         return max;
     }
 
-    public int min() {
+    public long min() {
         int min = max();
-        for (int sale : sales) {
+        for (long sale : sales) {
             if (sale < min) {
                 min = sale;
             }
@@ -28,6 +28,7 @@ public class SalesManager {
         return min;
     }
 
+<<<<<<< HEAD
     public int average() {
             int list=0;
             for (int sale:sales){
@@ -36,4 +37,7 @@ public class SalesManager {
         int average=list/ priceList.length;
         return average;
     }
+=======
+    
+>>>>>>> longer
 }
